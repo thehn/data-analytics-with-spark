@@ -1,0 +1,19 @@
+# Compiled python modules
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+docker/notebook_data/.*/
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store

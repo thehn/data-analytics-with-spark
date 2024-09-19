@@ -1,0 +1,20 @@
+version: '3'
+services: 
+  jupyter:
+    image: jupyter/pyspark-notebook
+    ports:
+      - 8888:8888
+      - 4040:4040
+    user: root
+    environment:
+      - NB_USER=thehn
+      - CHOWN_HOME=yes
+    working_dir: /home/thehn
+    command: ["start-notebook.sh"]
+    restart: always
+    volumes:
+      - ./notebook_data:/home/thehn
+
+volumes:
+  notebook_data:
+    external: true
