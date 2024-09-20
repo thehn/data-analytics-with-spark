@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 
 # Jupyter Notebook
-docker/notebook_data/.*/
+*.*/
 
 # Python virtual environment
 .venv/
