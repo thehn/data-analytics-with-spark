@@ -13,7 +13,7 @@ services:
     command: ["start-notebook.sh"]
     restart: always
     volumes:
-      - ./notebook_data:/home/thehn
+      - .././notebook_data:/home/thehn
 
 volumes:
   notebook_data:
