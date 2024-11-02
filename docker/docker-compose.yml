@@ -7,13 +7,13 @@ services:
       - 4040:4040
     user: root
     environment:
-      - NB_USER=thehn
+      - NB_USER=lab_user
       - CHOWN_HOME=yes
-    working_dir: /home/thehn
+    working_dir: /home/lab_user
     command: ["start-notebook.sh"]
     restart: always
     volumes:
-      - .././notebook_data:/home/thehn
+      - .././notebook_data:/home/lab_user/notebook_data
 
 volumes:
   notebook_data:
