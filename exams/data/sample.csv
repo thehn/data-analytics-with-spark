@@ -1,0 +1,9 @@
+id,name,age,department,salary,email,hire_date,gender
+1,Alice,30,Engineering,70000,alice@example.com,2015-06-01,Female
+2,Bob,25,Engineering,60000,bob@example.com,2016-07-15,Male
+3,Charlie,35,HR,80000,charlie@example.com,2014-08-20,Male
+4,Diana,28,Marketing,50000,diana@example.com,2017-09-30,Female
+5,Eve,40,Engineering,90000,eve@example.com,2013-10-10,Female
+6,Frank,32,HR,70000 frank@example.com,2018-11-11,Male
+7,Grace,29,Marketing,48000,grace@example.com,2019-12-12,Female
+8,Hank,45,Finance,95000,hank@example.com,2012-01-01,Male
