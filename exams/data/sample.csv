@@ -7,3 +7,8 @@ id,name,age,department,salary,email,hire_date,gender
 6,Frank,32,HR,70000 frank@example.com,2018-11-11,Male
 7,Grace,29,Marketing,48000,grace@example.com,2019-12-12,Female
 8,Hank,45,Finance,95000,hank@example.com,2012-01-01,Male
+9,Hank,45,Finance,95000,hank@example.com,2012-01-01,Male
+11,Hank,45,Finance,95000,hank@example.com,2012-01-01,Male
+12,Top,45,Finance,95000,,2012-01-01,Male
+13,Marshall,45,Finance,,,2012-01-01,Male
+14,Barney,55,Finance,,,2012-01-01,Male

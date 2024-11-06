@@ -1,0 +1,21 @@
+department_id,department_name,manager_id,location
+1,Engineering,1,HQ
+2,HR,3,HQ
+3,Marketing,null,Branch A
+4,Finance,8,HQ
+5,Sales,10,Branch B
+6,IT,12,HQ
+7,Operations,14,Branch C
+8,Customer Service,16,HQ
+9,Research & Development,18,HQ
+10,Accounting,20,HQ
+11,Legal,22,HQ
+12,Procurement,24,Branch D
+13,Quality Assurance,26,HQ
+14,Logistics,28,Branch E
+15,Supply Chain,30,HQ
+16,Human Resources,3,HQ
+17,Marketing & Sales,10,HQ
+18,Technology & Innovation,12,HQ
+19,Operations & Logistics,28,HQ
+20,Finance & Accounting,20,HQ
