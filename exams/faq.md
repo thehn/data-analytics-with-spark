@@ -1,6 +1,6 @@
 # Các câu hỏi thường gặp
 
-1. Folder làm bài sẽ là folder exams luôn hay folder khác, nếu folder khác thì mình có tên folder hay yml để set up docker hay được set up sẵn?
+### 1. Folder làm bài sẽ là folder exams luôn hay folder khác, nếu folder khác thì mình có tên folder hay yml để set up docker hay được set up sẵn?
 
 *Trả lời:*
 
@@ -12,13 +12,13 @@
   - `lab.ipynb` -> chứa các câu trả lời (codes) cho phần làm bài thực hành. Ví dụ tham khảo: data-analytics-with-spark\exams\12345678\lab.ipynb.
   - Folder con `output` chứa dữ liệu đầu ra trong quá trình làm bài thi thực hành.
 
-2. Các path dùng trong lúc làm bài có được set biến trên đầu file notebook luôn để tránh việc đổi path nhiều nơi không ạ ?
+### 2. Các path dùng trong lúc làm bài có được set biến trên đầu file notebook luôn để tránh việc đổi path nhiều nơi không ạ ?
 
 *Trả lời:*
 
 Các paths có thể đặt ở trên đầu hoặc khởi tạo tập trung tại 1 nơi (notebook cell) cho dễ theo dõi và quản lý.
 
-3. Dataframe làm việc trong notebook sẽ luôn là df được gọi đầu tiên trong file hay sẽ là dataframe gần nhất được mở (kiểu mở csv load df => xử lí abc => save df as delta => open delta => vậy thì lúc này sẽ làm việc với df mở từ csv ban đầu hay df_xx mở từ delta table)
+### 3. Dataframe làm việc trong notebook sẽ luôn là df được gọi đầu tiên trong file hay sẽ là dataframe gần nhất được mở (kiểu mở csv load df => xử lí abc => save df as delta => open delta => vậy thì lúc này sẽ làm việc với df mở từ csv ban đầu hay df_xx mở từ delta table)
 
 *Trả lời:*
 
@@ -27,7 +27,7 @@ Các paths có thể đặt ở trên đầu hoặc khởi tạo tập trung t�
 - Kết quả trả về của các dataframes / variables sẽ dùng để chấm điểm. Do đó tên các biến này không được thay đổi.
 - Ngoài các biến này ra thì các bạn được tự do khai báo và khởi tạo các biến khác để tiện xử lý.
 
-4. Nộp bài
+### 4. Nộp bài
 
 - Nén folder với tên là mã sinh viên của mình theo định dạng .zip.
 - Trong folder này phải chứa 2 files `multi-choices.csv`, `lab.ipynb` và folder con `output` như hướng dẫn trên. Sau đó gửi lại qua email: <hoangngocthe168@gmail.com>.
