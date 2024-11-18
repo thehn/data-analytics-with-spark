@@ -1,3 +1,5 @@
 pyspark
 pandas
 pyarrow
+matplotlib
+seaborn
