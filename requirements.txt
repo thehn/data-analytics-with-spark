@@ -3,3 +3,6 @@ pandas
 pyarrow
 matplotlib
 seaborn
+numpy
+scipy
+scikit-learn

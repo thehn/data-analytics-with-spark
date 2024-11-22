@@ -24,4 +24,5 @@ env/
 # Spark warehouse
 *spark-warehouse*/
 
-exams/output
+exams/*
+exams/submission*/*
