@@ -6,3 +6,5 @@ seaborn
 numpy
 scipy
 scikit-learn
+plotly
+graphistry
